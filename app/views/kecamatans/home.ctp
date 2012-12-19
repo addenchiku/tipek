@@ -4,25 +4,25 @@
 <div id="midle" class="clearfix">
     <ul id="main">
       <li>
-        <a id="sarana" class="tombol" href="#">sarana</a>
+        <a id="sarana" class="tombol" href="<?php echo $this->webroot;?>schools/sarana">sarana</a>
     </li>
     <li>
-        <a id="kelulusan" class="tombol" href="#">kelulusan</a>
+        <a id="kelulusan" class="tombol" href="<?php echo $this->webroot;?>schools/rekap_kelulusan">kelulusan</a>
     </li>
     <li>
         <a id="ptk" class="tombol" href="<?php echo $this->webroot;?>schools/ptk_status/sd">ptk</a>
     </li>
     <li>
-        <a id="sekolah" class="tombol" href="<?php echo $this->webroot;?>schools/jenis">sekolah</a>
+        <a id="sekolah" class="tombol" href="<?php echo $this->webroot;?>schools/jenis/sd">sekolah</a>
     </li>
     <li>
         <a id="siswa" class="tombol" href="<?php echo $this->webroot;?>schools/siswa_kelas/sd">siswa</a>
     </li>
     <li>
-        <a id="prasarana" class="tombol" href="#">prasarana</a>
+        <a id="prasarana" class="tombol" href="<?php echo $this->webroot;?>schoolsprasarana_teori_kelas/sd">prasarana</a>
     </li>
     <li>
-        <a id="keuangan" class="tombol" href="#">keuangan</a>
+        <a id="keuangan" class="tombol" href="<?php echo $this->webroot;?>schools/biaya_penerimaan/sd">keuangan</a>
     </li>
 </ul>
 </div>
